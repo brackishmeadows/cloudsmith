@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+
+Project("{AB3D80F3-C9C9-DB0F-DFFE-8C1A9720AF67}") = "cloudsmith", "cloudsmith.csproj", "{B0315494-8963-E54A-8A21-42D985C20F0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0315494-8963-E54A-8A21-42D985C20F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0315494-8963-E54A-8A21-42D985C20F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0315494-8963-E54A-8A21-42D985C20F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0315494-8963-E54A-8A21-42D985C20F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	
+EndGlobal
