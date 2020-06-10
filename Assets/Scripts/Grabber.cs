@@ -70,8 +70,8 @@ public class Grabber : MonoBehaviour {
 	//------------------------------------------------
 	void grab(GameObject other) {
 		other.transform.parent = this.transform;	
-		other.rigidbody.isKinematic = true;
-		other.rigidbody.useGravity = false;
+		other.GetComponent<Rigidbody>().isKinematic = true;
+		other.GetComponent<Rigidbody>().useGravity = false;
 		hasthing = true;
 		grabbedthing = other;
 		keypressed = false;
@@ -81,8 +81,8 @@ public class Grabber : MonoBehaviour {
 	//------------------------------------------------
 	void release() {
 		grabbedthing.transform.parent = null;	
-		grabbedthing.rigidbody.isKinematic = false;
-		grabbedthing.rigidbody.useGravity = true;
+		grabbedthing.GetComponent<Rigidbody>().isKinematic = false;
+		grabbedthing.GetComponent<Rigidbody>().useGravity = true;
 		hasthing = false;
 		keypressed = false;
 	}
